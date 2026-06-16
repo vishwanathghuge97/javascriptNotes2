@@ -9,7 +9,7 @@
 
   <script>
     const randomNumber= Math.random();
-    console.log(randomNumber);
+   
     let result;
     const guess='heads';
 
@@ -30,12 +30,12 @@
 
      result =(randomNumber<0.5 ? 'heads' : 'tails');
     
-    const finalResult=(result=== guess ? 'You win!' : 'You lose!');
+    console.log(result=== guess ? 'You win!' : 'You lose!');
 
-    console.log(finalResult);
+    
      
 
-    console.log(result);
+
 
 
 
