@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <script>
+    const randomNumber= Math.random();
+    console.log(randomNumber);
+    let result;
+    const guess='heads';
+
+    // if(randomNumber<0.5){
+    //   result='heads';
+    // }
+    // else {
+    //  result='tails';
+    // }
+
+    // if(result===guess)
+    // {
+    //   console.log('You win!');
+    // }
+    // else{
+    //   console.log('You lose!');
+    // }
+
+     result =(randomNumber<0.5 ? 'heads' : 'tails');
+    
+    const finalResult=(result=== guess ? 'You win!' : 'You lose!');
+
+    console.log(finalResult);
+     
+
+    console.log(result);
+
+
+
+
+
+  </script>
+  
+</body>
+</html>
